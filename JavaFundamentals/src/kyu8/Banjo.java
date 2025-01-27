@@ -1,3 +1,5 @@
+package kyu8;
+
 // https://www.codewars.com/kata/53af2b8861023f1d88000832/train/java
 public class Banjo {
     public static String areYouPlayingBanjo(String name) {
