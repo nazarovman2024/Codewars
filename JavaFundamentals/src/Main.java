@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
         /*
-         */
         Scanner input = new Scanner(System.in);
         System.out.println("Input text: ");
         System.out.println(ReversWords.reversWords(input.nextLine()));
@@ -19,5 +18,6 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.println("Input text: ");
         System.out.println(JadenCasingStrings.toJadenCase(input.nextLine()));
+         */
     }
 }
