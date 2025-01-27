@@ -12,7 +12,6 @@ public class ReversWords {
             } else if(original.charAt(i+1)==' ') {
                 string.append(new StringBuilder(original.substring(wordStart,i+1)).reverse());
             }
-            System.out.println(string);
         }
         return(string.toString());
     }
