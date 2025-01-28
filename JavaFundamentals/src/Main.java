@@ -1,7 +1,3 @@
-import kyu7.JadenCasingStrings;
-import kyu7.ReversWords;
-import kyu8.ReturnNegative;
-
 import java.util.Scanner;
 
 public class Main {
@@ -9,15 +5,17 @@ public class Main {
         /*
         Scanner input = new Scanner(System.in);
         System.out.println("Input text: ");
-        System.out.println(ReversWords.reversWords(input.nextLine()));
+        System.out.println(kyu7.reversWords(input.nextLine()));
 
         System.out.println("Input integer:");
         int input = new Scanner(System.in).nextInt();
-        System.out.println(ReturnNegative.makeNegative(input));
+        System.out.println(kyu8.makeNegative(input));
 
         Scanner input = new Scanner(System.in);
         System.out.println("Input text: ");
-        System.out.println(JadenCasingStrings.toJadenCase(input.nextLine()));
+        System.out.println(kyu7.toJadenCase(input.nextLine()));
          */
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter values: ");
     }
 }
