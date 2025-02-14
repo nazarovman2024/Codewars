@@ -175,4 +175,21 @@ public class kyu7 {
         }
         return result;
     }
+
+    // Mumbling
+    // https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/train/java
+    public static String accum(String s) {
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < s.length(); ++i) {
+            String str = s.substring(i, i + 1).toUpperCase();
+            result.append(str);
+            for (int counter = i; counter > 0; --counter) {
+                result.append(str.toLowerCase());
+            }
+            result.append("-");
+        }
+
+        return result.deleteCharAt(result.length() - 1).toString();
+    }
 }
