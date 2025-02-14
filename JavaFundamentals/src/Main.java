@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -15,7 +18,11 @@ public class Main {
         System.out.println("Input text: ");
         System.out.println(kyu7.toJadenCase(input.nextLine()));
          */
+/*
         Scanner input = new Scanner(System.in);
         System.out.println("Enter values: ");
+*/
+        List<String> friends = Arrays.asList("1234", "123", "4321");
+        System.out.println(kyu7.friend(friends));
     }
 }

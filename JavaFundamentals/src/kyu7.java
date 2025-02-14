@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -160,5 +161,18 @@ public class kyu7 {
         double x = 0.0;
         for(int i=0;i<n;i++) x += (double) 1 / (1 + (i * 3));
         return String.format("%.2f",x);
+    }
+
+    // Friend or Foe?
+    // https://www.codewars.com/kata/55b42574ff091733d900002f/train/java
+    public static List<String> friend(List<String> x) {
+        List<String> result = new ArrayList<>();
+
+        for (String str : x) {
+            if (str.length() == 4) {
+                result.add(str);
+            }
+        }
+        return result;
     }
 }
